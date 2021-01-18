@@ -1,0 +1,24 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+mat-card {
+  width: 50vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+mat-card-content .main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.friend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

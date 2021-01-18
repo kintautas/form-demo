@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -68,6 +69,7 @@
               "browserTarget": "angular-form:build:production"
             }
           }
+          
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -87,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "angular-form"
+  "defaultProject": "angular-form",
+  "cli": {
+    "analytics": false
+  }
 }
